@@ -1,0 +1,3 @@
+Temp name: Time Ticks
+
+	Time Ticks is a choose your own adventure game where the player is set on a world about to explode. Players are given free reign to wander the available world and choose how to spend their last days. As the timer ticks down at the top of the screen, players can travel the world and interact with the people there. As the clock winds down and the world explodes, players are given a summary of their last moments.
