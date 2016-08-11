@@ -1,0 +1,25 @@
+Concepts for Java
+
+Ground Zero:
+* Variables
+* Input/output
+* Math operations
+* Incrementations
+* If/switch statements
+* Loops
+
+Beginner:
+* Using multiple classes
+* Methods and instances
+* Constructors
+* Random number generator
+* Arrays
+* Multidimensional arrays
+
+Novice:
+* Public, Private, Protected
+* this operator
+* Enumeration
+* Static and final
+* Inheritance
+* 

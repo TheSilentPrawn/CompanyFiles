@@ -1,0 +1,31 @@
+Concepts for C++
+
+Ground zero:
+* Variables
+* Input output
+* Math operations
+* If/Switch statements
+* Loops
+* Functions
+* Parameters
+
+Beginner:
+* Random numbers
+* Vectors
+* Arrays (2D & MD)
+* Pointers
+* File I/O
+
+Novice:
+* Classes
+* Constructors/deconstructors
+* Operator Overloading
+* Inheritance
+* Private, Public, Protected
+
+Intermediate
+* Abstract/ Virtual Functions
+* Templates
+* Handling Exceptions
+
+
