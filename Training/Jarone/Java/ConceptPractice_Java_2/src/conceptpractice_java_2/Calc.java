@@ -1,10 +1,9 @@
 
 package conceptpractice_java_2;
 
-import java.util.ArrayList;
 
 public class Calc {
-    private float []numbers = {0,0};
+    private float []numbers;
     private float ans;
     
     public Calc(){
