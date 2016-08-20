@@ -1,0 +1,1 @@
+This folder contains random game ideas. Feel free to add whenever inspired.
