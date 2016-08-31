@@ -3,11 +3,15 @@
  */
 package javagame;
 
+import org.lwjgl.input.Mouse; //Imports lwjgl mouse functionality
 import org.newdawn.slick.*; //imports all slick libraries
 import org.newdawn.slick.state.*; //imports state/scene libraries
 
 //Inherits the basic game state class
 public class Menu extends BasicGameState{
+    //String for mouse coordinates
+    private String mouse = "No Input Received.";
+    
     //Constructor
     public Menu(int state){
     
@@ -22,7 +26,7 @@ public class Menu extends BasicGameState{
     //Draws objects on screen
     public void render(GameContainer gc, StateBasedGame stGame, Graphics g) throws SlickException{
         //Draws text on the screen("Text", x-coor, y-coor)
-        g.drawString("Are you ready to blast some foes?",50,50);
+        g.drawString(mouse,50,50);
         //Draws rectangle(x-coor, y-coor, width, height)
         g.drawRect(50, 100, 60, 120);
         //Draws oval(x-coor, y-coor,width, height)
@@ -36,7 +40,11 @@ public class Menu extends BasicGameState{
     
     //Updates images on screen
     public void update(GameContainer gc, StateBasedGame stGame, int delta) throws SlickException{
-        
+        //Receive mouse x-coor
+        int xPos = Mouse.getX();
+        //Receive mouse y-coor
+        int yPos = Mouse.getY();
+        mouse = "Mouse Position x: "+xPos+" y:"+yPos;
     }
     
     //Returns the Id of the state
